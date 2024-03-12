@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Autograding",
+      "setup": "wget -O grading.sh https://raw.githubusercontent.com/ulavalIFTGLOateliers/IFT2004-GLO2005-Migration-Correction/master/grading.sh && chmod 777 grading.sh",
+      "run": "./grading.sh",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 9
+    }
+  ]
+}
